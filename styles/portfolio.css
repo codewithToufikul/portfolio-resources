@@ -1,6 +1,11 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    
 }
+body{
+    margin: 0;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -44,11 +49,17 @@ nav a{
 }
 .header{
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-size: 600px 400px,100px 535px;
+    background-repeat: no-repeat;
+    background-position: bottom right,10px center;
+    
 }
 .banner{
-    padding: 20px 0px 0px 150px;
+    padding: 20px 0px 0px 140px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .btn-title{
     color: aliceblue;
@@ -68,9 +79,72 @@ nav a{
     border: 1px solid black;
     border-radius: 5px;
     background: #ffffff;
+    margin-left: 16px;
 
 }
 .banner img{
     width: 430px;
     /* height: 330px; */
+    
+}
+.banner-greeting{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 50px;
+    color: #181818;
+    margin-bottom: 0;
+}
+.banner-p{
+    color: #181818;
+    font-size: 15px;
+}
+.banner-tex{
+    max-width: 400px;
+}
+.about{
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    padding: 40px 80px 40px 80px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    height: 200px;
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.section-p{
+    color:#757575;
+    text-align: center; 
+    font-size: 10px;
+    font-weight: 400;
+}
+main{
+    max-width: 750px;
+    margin: 0 auto;
+}
+.ab-p{
+    color:#757575;
+    text-align: center;
+    font-size: 10px;
+}
+.ab-h{
+    color:#474747;
+    font-family: Open Sans;
+    font-size: 10px;
+    margin-top: 0;
+
+
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-evenly;
+    
 }
