@@ -5,6 +5,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 100px;
+    /* margin-left: 150px;
+    margin-left: 120px; */
 }
 .my-name{
     color:  #181818;
@@ -38,4 +41,36 @@ nav a{
     border-radius: 5px;
     background: #FD6E0A;
       
+}
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 20px 0px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+.btn-title{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 200;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.btn-us{
+    font-size: 15px;
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #ffffff;
+
+}
+.banner img{
+    width: 430px;
+    /* height: 330px; */
 }
