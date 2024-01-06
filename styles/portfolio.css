@@ -148,3 +148,40 @@ main{
     justify-content: space-evenly;
     
 }
+.tex-areea{
+    padding: 40px 80px 40px 80px;
+}
+.card{
+    width: 160px;
+    height: 260px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: aliceblue 0px 3px 20px 0px;
+    
+    
+}
+.card-item{
+    padding: 25px 20px 20px 20px;
+    /* padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px; */
+}
+.card-area{
+    display: flex;
+    /* align-items: center; */
+    /* padding: 10px; */
+    /* justify-content: end; */
+    justify-content: space-evenly;
+}
+.card-item p{
+    font-size: 11px;
+}
+.card-item img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+}
+.card-item h4{
+    font-size: 15px;
+}
