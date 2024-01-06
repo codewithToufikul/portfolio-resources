@@ -149,7 +149,7 @@ main{
     
 }
 .tex-areea{
-    padding: 40px 80px 40px 80px;
+    padding: 0px 80px 20px 80px;
 }
 .card{
     width: 160px;
@@ -184,4 +184,74 @@ main{
 }
 .card-item h4{
     font-size: 15px;
+}
+section{
+    margin-top: 40px;
+}
+.summery h2{
+    text-align: center;
+    
+    margin-bottom: 30px;
+}
+.edu-area{
+    width: 330px;
+    
+}
+.edu-area h5{
+    color: #757575;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.edu-area h4{
+    margin-bottom: 6px;
+}
+.edu-area p{
+    color:#757575;
+    font-size: 11px;
+    font-style: normal;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+.ex-area{
+    width: 330px;
+    
+}
+.ex-area h5{
+    color: #757575;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.ex-area h4{
+    margin-bottom: 6px;
+}
+.ex-area p{
+    color:#757575;
+    font-size: 11px;
+    font-style: normal;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+.edu-ex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.summery{
+    margin-top: 60px;
+}
+.btn-cv{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 200;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.cv{
+    text-align: center;
+    margin-top: 20px;
 }
