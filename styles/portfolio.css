@@ -9,13 +9,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 100px;
+    margin: 0px 200px;
     /* margin-left: 150px;
     margin-left: 120px; */
 }
 .my-name{
     color:  #181818;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 800;
     
 }
@@ -29,7 +29,7 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 80px;
     color: #474747;
 }
 nav a{
@@ -37,10 +37,10 @@ nav a{
 }
 .btn-nav{
     color: aliceblue;
-    font-size: 15px;
+    font-size: 28px;
     font-weight: 700;
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 64px;
     border: none;
     border-radius: 5px;
     background: #FD6E0A;
@@ -49,32 +49,32 @@ nav a{
 .header{
     background: #FFF8F3;
     background-image: url(../images/header_bg.png),url(../images/developer.png);
-    background-size: 600px 400px,100px 535px;
+    background-size: 1000px 700px,150px 900px;
     background-repeat: no-repeat;
     background-position: bottom right,10px center;
     
 }
 .banner{
-    padding: 20px 0px 0px 140px;
+    padding: 20px 0px 0px 230px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .btn-title{
     color: aliceblue;
-    font-size: 15px;
-    font-weight: 200;
-    width: 150px;
-    height: 40px;
+    font-size: 25px;
+    font-weight: 220;
+    width: 210px;
+    height: 64px;
     border: none;
     border-radius: 5px;
     background: #FD6E0A;
 }
 .btn-us{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 700;
-    width: 100px;
-    height: 40px;
+    width: 170px;
+    height: 64px;
     border: 1px solid black;
     border-radius: 5px;
     background: #ffffff;
@@ -82,61 +82,62 @@ nav a{
 
 }
 .banner img{
-    width: 430px;
-    /* height: 330px; */
+    width: 850px;  
+    /* height: 674px; */
     
 }
 .banner-greeting{
-    font-size: 30px;
+    font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
 .banner-title{
-    font-size: 50px;
+    font-size: 80px;
     color: #181818;
     margin-bottom: 0;
 }
 .banner-p{
     color: #181818;
-    font-size: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 .banner-tex{
-    max-width: 400px;
+    max-width: 585px;
 }
 .about{
     text-align: center;
     margin: 50px 0px 50px 0px;
-    padding: 40px 80px 40px 80px;
+    padding: 80px 80px 40px 80px;
     border-radius: 10px;
     background: #FFF8F3;
-    height: 200px;
+    height: 380px;
 }
 .section-title{
     color:#181818;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 600;
     
 }
 .section-p{
     color:#757575;
     text-align: center; 
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 400;
 }
 main{
-    max-width: 750px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 .ab-p{
     color:#757575;
     text-align: center;
-    font-size: 10px;
+    font-size: 18px;
 }
 .ab-h{
     color:#474747;
     font-family: Open Sans;
-    font-size: 10px;
+    font-size: 18px;
     margin-top: 0;
 
 
@@ -151,8 +152,8 @@ main{
     padding: 0px 80px 20px 80px;
 }
 .card{
-    width: 160px;
-    height: 260px;
+    width: 267px;
+    height: 377px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: aliceblue 0px 3px 20px 0px;
@@ -174,60 +175,68 @@ main{
     justify-content: space-evenly;
 }
 .card-item p{
-    font-size: 11px;
+    font-size: 18px;
 }
 .card-item img{
-    width: 30px;
-    height: 30px;
+    width: 44px;
+    height: 44px;
     margin-bottom: 0;
 }
 .card-item h4{
-    font-size: 15px;
+    font-size: 25px;
 }
 section{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .summery h2{
     text-align: center;
-    
+    font-size: 35px;
     margin-bottom: 30px;
 }
 .edu-area{
-    width: 330px;
+    width: 600px;
     
+}
+.edu-area h3{
+    font-size: 33px;
+}
+.ex-area h3{
+    font-size: 33px;
 }
 .edu-area h5{
     color: #757575;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .edu-area h4{
+    font-size: 25px;
     margin-bottom: 6px;
 }
 .edu-area p{
     color:#757575;
-    font-size: 11px;
+    font-size: 18px;
     font-style: normal;
     margin-bottom: 10px;
     padding-right: 20px;
 }
 .ex-area{
-    width: 330px;
+    width: 600px;
     
 }
 .ex-area h5{
     color: #757575;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .ex-area h4{
+    font-size: 25px;
     margin-bottom: 6px;
 }
 .ex-area p{
     color:#757575;
-    font-size: 11px;
+    font-size: 18px;
     font-style: normal;
     margin-bottom: 10px;
     padding-right: 20px;
@@ -254,21 +263,27 @@ section{
     text-align: center;
     margin-top: 20px;
 }
+#btn2{
+    margin-bottom: 30px;
+}
 
 .f-area{
-    max-width: 770px;
-    margin: 30px 200px 30px 200px;
-    padding-top: 100px;
+    max-width: 1140px;
+    /* margin: 30px 200px 30px 200px; */
+    margin: 0 auto;
+    padding-top: 200px;
     display: flex;
-    justify-content: space-between;
+    gap: 120px;
+    /* justify-content: space-between; */
 }
 footer{
     background-color: #FFF8F3;
-    height: 550px;
+    height: 930px;
+    margin-top: 3px;
 }
 .connect-p{
     color:#474747;
-    font-size: 11px;
+    font-size: 18px;
     font-weight: 400;
     padding-right: 30px;
 }
@@ -277,11 +292,11 @@ footer{
     padding-top: 2px;
     padding: 10px;
     color: #757575;
-    font-size: 10px;
+    font-size: 20px;
 }
 #name{
-    width: 261px;
-    height: 44px;
+    width: 461px;
+    height: 64px;
     border: none;
     border-radius: 5px;
     background #FFF;
@@ -289,14 +304,17 @@ footer{
     margin-top: 0;
 }
 #email{
-    width: 261px;
-    height: 44px;
+    width: 461px;
+    height: 64px;
     border: none;
     border-radius: 5px;
     background #FFF;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 #texxxt{
+    width: 461px;
+    height: 180px;
     border: none;
     border-radius: 5px;
     background #FFF;
@@ -304,17 +322,21 @@ footer{
 }
 .formh{
     margin-bottom: 0;
+    font-size: 35px;
 }
 .imgg-area{
     display: flex;
     gap: 10px;
 }
+.Connect-h2{
+    font-size: 35px;
+}
 .btn-sub{
     color: aliceblue;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 200;
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 64px;
     border: none;
     border-radius: 5px;
     background: #FD6E0A;
